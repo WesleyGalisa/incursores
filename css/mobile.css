@@ -1,0 +1,108 @@
+@media (min-width:300px) and  (max-width: 600px){
+ 
+    body{
+        font-family: Arial, sans-serif;
+        background-image: url(../imagens/destiny2dark.png);
+        background-size: 100%;
+    }
+ 
+    div#cabecalho{
+     background-color: rgba(15, 15, 15, 0.829);
+     border-radius: 5px;
+     height: 85px;
+ }
+
+
+ div#incur{
+     height: 70px;
+     width: 60%;
+     margin-left: 25%;
+     margin-top: -100px;
+     color: white;
+     font-size: 12px;
+ }
+
+
+ img{
+     width:100px;
+     height: 80px;
+     padding-top: 2px;
+ }
+
+ span{
+    
+     margin-left: 10%;
+     margin-top: -40px;
+ }
+
+ div#incur h2{
+     margin-top: 25px;
+     display: block;
+     margin-left: 25%;
+     margin-bottom: 5px;
+     padding-top: 5px;
+ }
+
+ footer{
+    background-color: rgba(15, 15, 15, 0.466);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+ }
+
+ div.noticia{
+     background-color: rgba(158, 150, 150, 0.226);
+     color:white;
+     margin:10px 23px;
+     width: 90%;
+     box-shadow: 2px 2px 2px rgba(190, 186, 186, 0.87);
+     border: 1px solid rgba(251, 252, 251, 0.151);
+     border-radius: 3px;
+     height: 100%;
+     padding-bottom: 10px;
+     text-shadow: 1px 1px 1px rgb(27, 1, 1);
+ }
+
+ img.foto{
+    
+     width: 95%;
+     height: 85%;
+     margin-left: 8px;
+ }
+
+
+ div.noticia h2 {
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-bottom: 5px;
+    
+ }
+
+ div.noticia small{
+    margin-left: 15px;
+    margin-top: 5px;    
+ }
+
+ div.noticia a{
+    background-color:rgba(245, 29, 29, 0.705);
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ div#describe{
+     text-justify: justify;
+     text-indent: 5px;
+     text-align: center;
+     width: 90%;
+     margin-left: 16px;
+     margin-top: -15px;
+     font-weight: bold;
+     font-size: 15px;
+ }
+
+
+}
