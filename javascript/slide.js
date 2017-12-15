@@ -37,3 +37,22 @@ function slider4(){
     slide4.style.display="block";
     setTimeout("slider()" ,3000);
 }
+
+function trocaBgi(){
+    var bgi1
+    bgi1 = document.getElementById("corpo");
+
+    bgi1.style.backgroundImage = "url('imagens/siva.gif')";
+    bgi1.style.backgroundSize = "150px"
+    setTimeout("trocaBgi2()",5000);
+}
+
+function trocaBgi2(){
+var bgi2
+bgi2 = document.getElementById("corpo");
+
+bgi2.style.backgroundImage = "url('imagens/siva2.gif')";
+bgi2.style.backgroundSize = "350px";
+
+setTimeout("trocaBgi()",4000);
+}
