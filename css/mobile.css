@@ -1,127 +1,156 @@
-@media (min-width:300px) and  (max-width: 900px){
- 
+@media (min-width:350px) and (max-width:600px){
     body{
-        font-family: Arial, sans-serif;
-        background-image: url(../imagens/destiny2dark.png);
+        background-image: url(../imagens/siva2.gif);
         background-size: 100%;
     }
- 
-    div#cabecalho{
-     background-color: rgba(15, 15, 15, 0.829);
-     border-radius: 5px;
-     height: 85px;
- }
+
+    ul{
+        list-style: none;
+    }
+
+    div#page{
+        width: 85%;
+        height: 700px;
+        background-color: blue;
+        margin: 0px auto;
+    }
+
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: purple;
+    }
+
+    img.logo{
+    }
+
+    img#incur{
+        margin-left: 18%;
+        
+        width: 80px;
+        height: 90%;
+    }
+
+    img#dicon{
+        margin-top: 2px;
+        margin-left: 1px;
+        width: 70px;
+        height: 60px;
+    }
+
+    img#xone{
+        margin-left: 2%;
+        width: 135px;
+        height: 45px;;
+        margin-bottom: 5px;
+    }
 
 
- div#incur{
-     height: 70px;
-     width: 60%;
-     margin-left: 25%;
-     margin-top: -100px;
-     color: white;
-     font-size: 12px;
- }
+    nav{
+        position: absolute;
+        width: 80px;
+        height: 70px;
+        background-color: gray;
+        margin-top: -70px;
+        margin-left: auto;
+    }
 
- div#cabecalho i{
-    color: white;
-    font-size:30px;
-    float: right;
-    margin-top: -55px;
-    margin-right: 20px;
- }
+    aside{
+        width: 90%;
+        height: 197px;
+        background-color: violet;
+        margin:10px auto 10px auto;
+    }
 
- img{
-     width:100px;
-     height: 80px;
-     padding-top: 2px;
- }
+    div#atividade{
+        width: 90%;
+        height: 197px;
+        background-color: yellowgreen;
+        margin: 0px auto 10px auto;
+    }
 
- span{
-    
-     margin-left: 10%;
-     margin-top: -40px;
- }
-
- div#incur h2{
-     margin-top: 25px;
-     display: block;
-     margin-left: 25%;
-     margin-bottom: 5px;
-     padding-top: 5px;
- }
-
- footer{
-    background-color: rgba(158, 150, 150, 0.226);
-    width: 100%;
-    border-radius: 10px;
-    color: #fff;
-    padding: 5px 0px;
-    text-align: center;
-    margin-top: 30px;
-    text-shadow: 1px 1px 1px rgb(22, 1, 1);
- }
-
- span#foote{
-     font-size: 12px;
-     margin-left: -7px;
- }
-
- div.noticia{
-     background-color: rgba(158, 150, 150, 0.226);
-     color:white;
-     margin:10px 5%;
-     width: 90%;
-     box-shadow: 2px 2px 2px rgba(190, 186, 186, 0.87);
-     border: 1px solid rgba(251, 252, 251, 0.151);
-     border-radius: 3px;
-     height: 100%;
-     padding-bottom: 10px;
-     text-shadow: 1px 1px 1px rgb(27, 1, 1);
- }
-
- img.foto{
-    
-     width: 95%;
-     height: 85%;
-     margin-left: 8px;
-     border-radius: 5px;
- }
-
- img#nessus{
-     height: 200px;
- }
-
- div.noticia h2 {
-     margin-top: 10px;
-     margin-left: 10px;
-     margin-bottom: 5px;
-    
- }
-
- div.noticia small{
-    margin-left: 15px;
-    margin-top: 5px;    
- }
-
- div.noticia a.saiba{
-    background-color:rgba(245, 29, 29, 0.705);
-    text-decoration: none;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-
+    div#news{
+        width: 90%;
+        height: 198px;
+        background-color: white;;
+        margin: 0px auto 10px auto;
+    }
 }
 
- div.describe{
-     text-justify: justify;
-     text-indent: 5px;
-     text-align: center;
-     width: 90%;
-     margin-left: 16px;
-     margin-top: -15px;
-     font-weight: bold;
-     font-size: 15px;
- }
 
+@media (min-width:601px) and (max-width:990px){
+    body{
+        background-image: url(../imagens/siva2.gif);
+        background-size: 100%;
+    }
 
+    ul{
+        list-style: none;
+    }
+
+    div#page{
+        width: 75%;
+        height: 600px;
+        background-color: blue;
+        margin: 0px auto;
+    }
+
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: purple;
+    }
+
+    img.logo{
+    }
+
+    img#incur{
+        margin-left: 18%;
+        
+        width: 80px;
+        height: 90%;
+    }
+
+    img#dicon{
+        margin-top: 2px;
+        margin-left: 1px;
+        width: 80px;
+        height: 90%;
+    }
+
+    img#xone{
+        margin-left: 2%;
+        width: 180px;
+        height: 50px;;
+        margin-bottom: 5px;
+    }
+
+    nav{
+        position: absolute;
+        width: 90px;
+        height: 70px;
+        background-color: gray;
+        margin-top: -70px;
+        margin-right: auto;
+    }
+
+    aside{
+        width: 45%;
+        height: 480px;
+        background-color: violet;
+        float: right;        
+    }
+
+    div#atividade{
+        width: 55%;
+        height: 240px;
+        background-color: yellowgreen;
+    }
+
+    div#news{
+        width: 55%;
+        height: 240px;
+        background-color: white;;
+    }
 }
+
