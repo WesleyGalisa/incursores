@@ -1,4 +1,4 @@
-@media (min-width:350px) and (max-width:450px){
+@media (min-width:350px) and (max-width:600px){
     body{
         background-image: url(../imagens/siva2.gif);
         background-size: 100%;
@@ -78,84 +78,7 @@
     }
 }
 
-@media (min-width:451px) and (max-width:600px){
-    body{
-        background-image: url(../imagens/siva2.gif);
-        background-size: 100%;
-    }
 
-    ul{
-        list-style: none;
-    }
-
-    div#page{
-        width: 85%;
-        height: 700px;
-        background-color: blue;
-        margin: 0px auto;
-    }
-
-    header{
-        width: 100%;
-        height: 70px;
-        background-color: purple;
-    }
-
-    img.logo{
-    }
-
-    img#incur{
-        margin-left: 18%;
-        
-        width: 80px;
-        height: 90%;
-    }
-
-    img#dicon{
-        margin-top: 2px;
-        margin-left: 1px;
-        width: 70px;
-        height: 60px;
-    }
-
-    img#xone{
-        margin-left: 2%;
-        width: 135px;
-        height: 45px;;
-        margin-bottom: 5px;
-    }
-
-
-    nav{
-        position: absolute;
-        width: 80px;
-        height: 70px;
-        background-color: gray;
-        margin-top: -70px;
-        margin-left: auto;
-    }
-
-    aside{
-        width: 90%;
-        height: 197px;
-        background-color: violet;
-        margin:10px auto 10px auto;
-    }
-
-    div#atividade{
-        width: 90%;
-        height: 197px;
-        background-color: yellowgreen;
-        margin: 0px auto 10px auto;
-    }
-
-    div#news{
-        width: 90%;
-        height: 198px;
-        background-color: white;;
-        margin: 0px auto 10px auto;
-    }
-}
 
 
 @media (min-width:601px) and (max-width:990px){
