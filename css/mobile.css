@@ -104,7 +104,8 @@
         background-color: purple;
     }
 
-    img.logo{
+    img#xone2{
+        display: none;
     }
 
     img#incur{
