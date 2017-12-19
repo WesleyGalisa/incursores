@@ -8,17 +8,64 @@
         list-style: none;
     }
 
+    nav ul#menu1 li#imagem img{
+        width: 50px;
+        height: 50px;
+        margin-top: -5px;
+        position: absolute;
+        margin-left: -23px;
+    }
+
     div#page{
         width: 100%;
         height: 700px;
-        background-color: blue;
+        background-color: rgba(224, 200, 200, 0.404);
         margin: 0px auto;
+        border-radius: 2px;
+        border: 1px solid rgba(201, 196, 196, 0.356);
+    
     }
 
     header{
         width: 100%;
         height: 70px;
-        background-color: purple;
+        background-color: rgba(226, 212, 212, 0.253);
+        
+    }
+
+    ul#menu2{
+        position: absolute;
+        display: none;
+        width: 120px;
+        height: 162px;
+        margin-top: 55px;
+        margin-left: -40px;
+        text-align: center;
+        background-color: rgba(70, 176, 238, 0.829);
+        border-radius: 5px;
+        transition: all .05s;
+    }
+
+    ul#menu2 li{
+        padding: 10px 0px 10px 0px;
+        border-radius: 5px;
+        position: absolute;
+        width: 100%;
+        color: white;
+        border-bottom: 1px solid rgb(10, 1, 1);
+        margin-left: -40px;
+    }
+    
+    li#m2{
+        margin-top: 41px;
+    }
+
+    li#m3{
+        margin-top: 82px;
+    }
+
+    li#m4{
+        margin-top: 123px;
     }
 
     img#xone2{
@@ -51,7 +98,6 @@
         position: absolute;
         width: 80px;
         height: 70px;
-        background-color: gray;
         margin-top: -70px;
         margin-left: auto;
     }
@@ -59,22 +105,24 @@
     aside{
         width: 90%;
         height: 197px;
-        background-color: violet;
         margin:10px auto 10px auto;
+        border: 1px solid gray;
     }
 
     div#atividade{
         width: 90%;
         height: 197px;
-        background-color: yellowgreen;
         margin: 0px auto 10px auto;
+        border: 1px solid gray;
+        
     }
 
     div#news{
         width: 90%;
         height: 198px;
-        background-color: white;;
         margin: 0px auto 10px auto;
+        border: 1px solid gray;
+        
     }
 }
 
@@ -90,18 +138,29 @@
     ul{
         list-style: none;
     }
+ 
 
     div#page{
-        width: 75%;
+        width: 96%;
         height: 600px;
-        background-color: blue;
+        background-color: rgba(224, 200, 200, 0.404);
         margin: 0px auto;
+        border-radius: 2px;
+        border: 1px solid rgba(201, 196, 196, 0.356);
     }
 
     header{
         width: 100%;
         height: 70px;
-        background-color: purple;
+        background-color: rgba(226, 212, 212, 0.253);
+    }
+
+    nav ul#menu1 li#imagem img{
+        width: 50px;
+        height: 50px;
+        margin-top: -12px;
+        position: absolute;
+        margin-left: -23px;
     }
 
     img#xone2{
@@ -118,14 +177,14 @@
     img#dicon{
         margin-top: 2px;
         margin-left: 1px;
-        width: 80px;
-        height: 90%;
+        width: 65px;
+        height: 55px;
     }
 
     img#xone{
         margin-left: 2%;
-        width: 180px;
-        height: 50px;;
+        width: 190px;
+        height: 50px;
         margin-bottom: 5px;
     }
 
@@ -133,28 +192,84 @@
         position: absolute;
         width: 90px;
         height: 70px;
-        background-color: gray;
         margin-top: -70px;
         margin-right: auto;
+    }
+
+    ul#menu1{
+        width: 100%;
+        height: 60px;
+        cursor: pointer;
+
+    }
+
+    ul#menu1 li{
+        padding: 5px 0px 5px  0px;
+        color: white;
+        width: 100%;
+        margin-left: -40px;
+        text-align: center;
+        height: 20px;
+    }
+
+    ul li#imagem{
+        width: 30px;
+        margin-left: 1px;
+    }
+
+    ul#menu2{
+        position: absolute;
+        display: none;
+        width: 120px;
+        height: 165px;
+        margin-top: 24px;
+        margin-left: -40px;
+        text-align: center;
+        background-color: rgba(70, 176, 238, 0.829);
+        border-radius: 5px;
+        transition: all .05s;
+    }
+
+    ul#menu2 li{
+        padding: 10px 0px 10px 0px;
+        border-radius: 5px;
+        position: absolute;
+        width: 100%;
+        color: white;
+        border-bottom: 1px solid rgb(10, 1, 1);
+    }
+    
+    li#m2{
+        margin-top: 41px;
+    }
+
+    li#m3{
+        margin-top: 82px;
+    }
+
+    li#m4{
+        margin-top: 123px;
     }
 
     aside{
         width: 45%;
         height: 480px;
-        background-color: violet;
-        float: right;        
+        float: right;
+        border: 1px solid gray;
+        
     }
 
     div#atividade{
-        width: 55%;
+        width: 54%;
         height: 240px;
-        background-color: yellowgreen;
+        border: 1px solid gray;
+        
     }
 
     div#news{
-        width: 55%;
+        width: 54%;
         height: 240px;
-        background-color: white;;
+        border: 1px solid gray;
     }
 }
 
