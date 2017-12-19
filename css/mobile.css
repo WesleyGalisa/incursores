@@ -35,13 +35,14 @@
     ul#menu2{
         position: absolute;
         display: none;
-        width: 120px;
+        width: 122px;
         height: 162px;
         margin-top: 55px;
         margin-left: -40px;
         text-align: center;
-        background-color: rgb(99, 92, 89);
         border-radius: 5px;
+        background-color: rgb(99, 92, 89);
+        padding-top: 1.5px;        
         transition:  .05s;
     }
 
@@ -51,8 +52,10 @@
         position: absolute;
         width: 100%;
         color: white;
-        border-bottom: 1px solid rgb(10, 1, 1);
+        border: 1px solid rgba(10, 1, 1, 0.411);
         margin-left: -40px;
+        background-color: rgb(99, 92, 89);
+        
     }
     
     li#m2{
@@ -260,6 +263,7 @@
         text-align: center;
         background-color: rgb(99, 92, 89);
         border-radius: 5px;
+        padding-top: 1.5px;
         transition: all .05s;
     }
 
@@ -269,7 +273,7 @@
         position: absolute;
         width: 100%;
         color: white;
-        border-bottom: 1px solid rgb(10, 1, 1);
+        border: 1px solid rgba(10, 1, 1, 0.411);
     }
     
     li#m2{
