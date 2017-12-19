@@ -1,6 +1,6 @@
 var menu = document.getElementById("menu1");
 var menu2 = document.getElementById("menu2");
-var contagem = true;
+var contagem = false;
 
 
 function trocaMenu(){
