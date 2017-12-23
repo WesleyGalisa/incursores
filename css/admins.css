@@ -1,4 +1,4 @@
-@media (min-width:350px) and (max-width:600px){
+@media (min-width:319px) and (max-width:600px){
     body{
         background-image: url(../imagens/fundo3.jpg);
         background-size: 100%;
@@ -145,13 +145,13 @@
         font-size: 20px;
         color: white;
         text-align: center;
-        background-color: rgba(166, 152, 240, 0.342);
+        background-color: rgba(18, 140, 240, 0.342);
         margin-top: 0px;
         padding: 5px 0px;
     }
 
-    div#diretores, div#suporte, div#suportebot{
-        border: 5px solid rgba(166, 152, 240, 0.342);
+    div#diretores, div#suporte, div#suportebot, div#tutores{
+        border: 5px solid rgba(18, 140, 240, 0.342);
         border-radius: 5px;
         margin-bottom: 20px;
         padding-bottom: 15px;
@@ -390,7 +390,7 @@
         padding: 5px 0px;
     }
 
-    div#diretores, div#suporte, div#suportebot{
+    div#diretores, div#suporte, div#suportebot, div#tutores{
         border: 5px solid rgba(166, 152, 240, 0.342);
         border-radius: 5px;
         margin-bottom: 20px;
