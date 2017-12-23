@@ -145,17 +145,17 @@
         font-size: 20px;
         color: white;
         text-align: center;
-        background-color: rgba(18, 140, 240, 0.342);
+        background-color: rgba(9, 146, 16, 0.342);
         margin-top: 0px;
         padding: 5px 0px;
     }
 
     div#diretores, div#suporte, div#suportebot, div#tutores{
-        border: 5px solid rgba(18, 140, 240, 0.342);
+        border: 5px solid rgba(9, 146, 16, 0.342);
         border-radius: 5px;
         margin-bottom: 20px;
         padding-bottom: 15px;
-        background-color: rgba(255, 255, 255, 0.253);
+        background-color: rgba(133, 233, 133, 0.253);
     }
 
     div.admin{
@@ -224,8 +224,8 @@
     div.admininfo a{
         text-decoration: none;
         color: white;
-        background-color: rgb(204, 70, 70);
-        border-bottom: 2px solid rgb(150, 44, 44);        
+        background-color: rgb(20, 122, 25);
+        border-bottom: 2px solid rgb(1, 59, 4);        
         padding: 5px 10px;
         border-radius: 5px;
     }
@@ -385,17 +385,17 @@
         font-size: 35px;
         color: white;
         text-align: center;
-        background-color: rgba(166, 152, 240, 0.342);
+        background-color: rgba(9, 146, 16, 0.342);
         margin-top: 0px;
         padding: 5px 0px;
     }
 
     div#diretores, div#suporte, div#suportebot, div#tutores{
-        border: 5px solid rgba(166, 152, 240, 0.342);
+        border: 5px solid rgba(9, 146, 16, 0.342);
         border-radius: 5px;
         margin-bottom: 20px;
         padding-bottom: 15px;
-        background-color: rgba(255, 255, 255, 0.253);
+        background-color: rgba(133, 233, 133, 0.253);
     }
 
     div.admin{
@@ -472,8 +472,8 @@
     div.admininfo a{
         text-decoration: none;
         color: white;
-        background-color: rgb(204, 70, 70);
-        border-bottom: 2px solid rgb(150, 44, 44);
+        background-color: rgb(20, 122, 25);
+        border-bottom: 2px solid rgb(1, 59, 4);  
         padding: 5px 10px;
         border-radius: 5px;
         font-size: 20px;
