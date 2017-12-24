@@ -1,51 +1,139 @@
-@media (min-width:1000px){
+@media (min-width:1200px){
     body{
-        background-image: url(../imagens/siva2.gif);
+        background-image: url(../imagens/fundo3.jpg);
         background-size: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    header{
+        background-color: rgba(252, 247, 247, 0.205);
+        width: 100%;
+        height: 70px;
+        margin:auto;
+        padding: 0px 0px 10px 0px;
+    }
+
+    div#page{
+        width: 85%;
+        background-color:rgba(128, 128, 128, 0.151) ;
+        margin: auto;
+        border: 10px solid rgba(252, 247, 247, 0.205);
+        border-radius: 5px;
+    }
+
+    img#incur{
+        width: 70px;
+        height: 70px;
+    }
+
+    img#dicon{
+        width: 75px;
+        height: 65px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    img#xone{
+        width: 290px;
+        height: 65px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     img#xone2{
         display: none;
     }
 
-    div#page{
-        width: 65%;
-        background-color: blue;
-        margin-left: auto;
-        margin-right: auto;
-        height: 600px;
+    div#centerheader{
+        width: 470px;
+        margin: auto;
     }
-
-    header{
-        width: 100%;
-        height:100px;
-        background-color: purple;
-
+    
+    ul{
+        list-style: none;
+        width: 600px;
+        margin: auto;
     }
 
     nav{
+        background-color: rgba(46, 195, 221, 0.205);
         width: 100%;
-        height: 40px;
-        background-color: silver;
-        margin-top: -16px;
+        margin: 0px auto;
+        font-size: 16px;
+        padding: 8px 0px;
     }
 
-    aside{
-        width: 40%;
-        height: 460px;
-        background-color: yellowgreen;
-        float: right;
+    nav img{
+        display: none;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 0px 10px;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+
+    nav ul li{
+        display: inline;
+       
+    }
+
+    nav ul li a:hover{
+        text-shadow: none;
+    }
+
+    h2{
+        color: white;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    aside {
+        width: 90%;
+        height: 750px;
+        margin:100px auto 70px auto;
+    }
+
+    aside img{
+        
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        border-radius: 5px;
     }
 
     div#atividade{
-        width: 60%;
-        height: 230px;
-        background-color: gray;
+        width: 90%;
+        margin: 20px auto 100px auto;
+    }
+
+    img.slide{
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
     }
 
     div#news{
-        width: 60%;
-        height: 230px;
-        background-color: #fff;
+        width: 90%;
+        height: 700px;
+        margin: 20px auto 70px auto;
+    }
+
+    footer{
+        width: 85%;
+        margin: 20px auto;
+        background-color: rgba(252, 247, 247, 0.205);
+        padding: 1px 0px;
+        border-radius: 8px;
+        border: 10px solid rgba(214, 205, 205, 0.226);
+    }
+
+    footer h3{
+        text-align: center;
+        color: white;
     }
 }
