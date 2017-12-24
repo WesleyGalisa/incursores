@@ -3,6 +3,8 @@
         background-image: url(../imagens/fundo3.jpg);
         background-size: 100%;
         font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 1px black;
+        color: white;
     }
 
     ul{
@@ -82,31 +84,11 @@
         margin-top: 158px;
     }
 
-    img#xone2{
-        width: 50px;
-        height: 50px;
-        margin-bottom: 9px;
-        margin-left: 17px;
-    }
-
+   
     img#incur{
-        margin-left: 23%;
-        
-        width: 80px;
+         width: 80px;
         height: 70px;
     }
-
-    img#dicon{
-        width:60px;
-        height: 55px;
-        margin-bottom: 9px;
-        margin-left: 5px;
-    }
-
-    img#xone{
-        display: none;
-    }
-
 
     nav{
         position: absolute;
@@ -187,14 +169,43 @@
         text-align: center;
         color:white;
     }
-}
 
+    
+    div#centerheader{
+        width: 230px;
+        margin: auto;
+    }
+
+    div#centerheader h2{
+        float:right;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+
+    div#flogos{
+        width: 150px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 20px;
+    }
+}
 
 @media (min-width:601px) and (max-width:990px){
     body{
         background-image: url(../imagens/fundo3.jpg);
         background-size: 100%;
         font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-shadow: 1px 1px 1px black;
     }
 
     ul{
@@ -274,35 +285,11 @@
         margin-top: 158px;
     }
 
-    img#xone2{
-        display: none;
-        width: 50px;
-        height: 50px;
-        margin-bottom: 9px;
-        margin-left: 17px;
-    }
 
     img#incur{
-        margin-left: 23%;
-        
         width: 80px;
         height: 70px;
     }
-
-    img#dicon{
-        width:60px;
-        height: 55px;
-        margin-bottom: 9px;
-        margin-left: 5px;
-    }
-
-    img#xone{
-        width: 200px;
-        height: 50px;
-        margin-left: 15px;
-        margin-bottom: 10px;
-    }
-
 
     nav{
         position: absolute;
@@ -326,7 +313,7 @@
         color: white;
         
     }
- 
+  
     div#describeinfo{
         width: 250px;
         float: right;
@@ -382,6 +369,34 @@
         text-align: center;
         color:white;
     }
+
+        
+    div#centerheader{
+        width: 300px;
+        margin: auto;
+    }
+
+    div#centerheader h2{
+        float:right;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+
+    div#flogos{
+        width: 190px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 25px;
+    }
 }
 
 @media (min-width:1200px){
@@ -410,33 +425,11 @@
     }
 
     img#incur{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 90px;
+        margin-top: -9px;
     }
 
-    img#dicon{
-        width: 75px;
-        height: 65px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    img#xone{
-        width: 290px;
-        height: 65px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    img#xone2{
-        display: none;
-    }
-
-    div#centerheader{
-        width: 470px;
-        margin: auto;
-    }
-    
     ul{
         list-style: none;
         width: 600px;
@@ -535,5 +528,33 @@
     footer h3{
         text-align: center;
         color: white;
+    }
+
+            
+    div#centerheader{
+        width: 430px;
+        margin:0px auto auto auto;
+    }
+
+    div#centerheader h2{
+        float:right;
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+
+    div#flogos{
+        width: 210px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 25px;
+        height: 25px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 30px;
     }
 }

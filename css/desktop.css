@@ -23,31 +23,20 @@
     }
 
     img#incur{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 90px;
+        margin-top: -8px;
     }
 
-    img#dicon{
-        width: 75px;
-        height: 65px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    img#xone{
-        width: 290px;
-        height: 65px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    img#xone2{
-        display: none;
-    }
 
     div#centerheader{
-        width: 470px;
+        width: 390px;
         margin: auto;
+    }
+
+    div#centerheader h2{
+        float: right;
+        margin-top: 15px;
     }
     
     ul{
@@ -135,5 +124,21 @@
     footer h3{
         text-align: center;
         color: white;
+    }
+
+    
+    div#flogos{
+        width: 210px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 35px;
     }
 }

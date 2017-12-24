@@ -83,31 +83,11 @@
         margin-top: 158px;
     }
 
-    img#xone2{
-        width: 50px;
-        height: 50px;
-        margin-bottom: 9px;
-        margin-left: 17px;
-    }
-
     img#incur{
-        margin-left: 23%;
-        
+       
         width: 80px;
         height: 70px;
     }
-
-    img#dicon{
-        width:60px;
-        height: 55px;
-        margin-bottom: 9px;
-        margin-left: 5px;
-    }
-
-    img#xone{
-        display: none;
-    }
-
 
     nav{
         position: absolute;
@@ -192,6 +172,33 @@
         font-size: 0.8em;
         text-align: center;
         color:white;
+    }
+        
+    div#centerheader{
+        width: 230px;
+        margin: auto;
+    }
+
+    div#centerheader h2{
+        float:right;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+
+    div#flogos{
+        width: 150px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 20px;
     }
 }
 
@@ -280,35 +287,11 @@
         margin-top: 158px;
     }
 
-    img#xone2{
-        display: none;
-        width: 50px;
-        height: 50px;
-        margin-bottom: 9px;
-        margin-left: 17px;
-    }
-
     img#incur{
-        margin-left: 23%;
         
         width: 80px;
         height: 70px;
     }
-
-    img#dicon{
-        width:60px;
-        height: 55px;
-        margin-bottom: 9px;
-        margin-left: 15px;
-    }
-
-    img#xone{
-        width: 220px;
-        height: 50px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-    }
-
 
     nav{
         position: absolute;
@@ -339,7 +322,9 @@
     div#botinfo{
         width: 200px;
         float: right;  
-        margin-top: 50px;   
+        margin-top: -130px;   
+        margin-right: 20px;
+        
     }
 
     div#botinfo h3{
@@ -375,7 +360,7 @@
         padding: 0px 5px;
     }
 
-    div#oq p, #comandos p{
+    div#oq p, div#comandos p{
         margin: auto;
         width: 570px;
         text-align: justify;
@@ -395,6 +380,34 @@
         font-size: 0.9em;
         text-align: center;
         color:white;
+    }
+
+        
+    div#centerheader{
+        width: 330px;
+        margin: auto;
+    }
+
+    div#centerheader h2{
+        float:right;
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+
+    div#flogos{
+        width: 190px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 25px;
     }
 }
 
@@ -424,32 +437,11 @@
     }
 
     img#incur{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 90px;
+        margin: -9px;
     }
 
-    img#dicon{
-        width: 75px;
-        height: 65px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    img#xone{
-        width: 290px;
-        height: 65px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    img#xone2{
-        display: none;
-    }
-
-    div#centerheader{
-        width: 470px;
-        margin: auto;
-    }
     
     ul{
         list-style: none;
@@ -530,7 +522,7 @@
         width: 90%;
         margin: 20px auto 60px auto;
         border-radius: 5px;
-    }
+    } 
 
     div#oq h3, div#comandos h3{
         background-color: gray;
@@ -562,5 +554,34 @@
     footer h3{
         text-align: center;
         color: white;
+    }
+
+        
+    div#centerheader{
+        background-color: rgb(224, 61, 61);
+        width: 470px;
+        margin: auto;
+    }
+
+    div#centerheader h2{
+        float:right;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+
+    div#flogos{
+        width: 190px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 25px;
+        height: 25px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 30px;
     }
 }

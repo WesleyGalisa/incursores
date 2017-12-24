@@ -3,6 +3,7 @@
         background-image: url(../imagens/fundo3.jpg);
         background-size: 100%;
         font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 1px black;
     }
 
     ul{
@@ -30,6 +31,17 @@
         height: 70px;
         background-color: rgba(226, 212, 212, 0.253);
         border-radius: 5px;
+    }
+
+    div#centerheader{
+        width: 230px;
+        margin: auto;
+    }
+
+    div#centerheader h2{
+        float:right;
+        font-size: 18px;
+        margin-top: 25px;
     }
 
     ul#menu2{
@@ -83,32 +95,14 @@
         margin-top: 158px;
     }
 
-    img#xone2{
-        width: 50px;
-        height: 50px;
-        margin-bottom: 9px;
-        margin-left: 17px;
-    }
+    
 
-    img#incur{
-        margin-left: 23%;
-        
+    img#incur{    
         width: 80px;
         height: 70px;
     }
 
-    img#dicon{
-        width:60px;
-        height: 55px;
-        margin-bottom: 9px;
-        margin-left: 5px;
-    }
-
-    img#xone{
-        display: none;
-    }
-
-
+    
     nav{
         position: absolute;
         width: 80px;
@@ -174,6 +168,21 @@
         font-size: 0.8em;
         text-align: center;
         color:white;
+    } 
+
+    div#flogos{
+        width: 150px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 20px;
     }
 }
 
@@ -182,6 +191,7 @@
         background-image: url(../imagens/fundo3.jpg);
         background-size: 100%;
         font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 1px black;
     }
 
     ul{
@@ -205,34 +215,26 @@
     }
 
     div#centerheader{
-        width: 385px;
+        width: 305px;
         height: 70px;
         margin: 0px auto 0px auto;
     }
 
-    
-    img#xone2{
-        display: none;
+   
+
+    div#centerheader h2{
+        float:right;
+        font-size: 26px;
+        margin-top: 25px;
     }
 
-    img#incur{
+
+     
+       img#incur{
         width: 80px;
         height: 70px;
     }
 
-    img#dicon{
-        margin-left: 1px;
-        width: 60px;
-        height: 55px;
-        margin-bottom: 5px;
-    }
-
-    img#xone{
-        margin-left: 2%;
-        width: 200px;
-        height: 50px;
-        margin-bottom: 8px;
-    }
 
 
     nav ul#menu1 li#imagem img{
@@ -379,6 +381,21 @@
         font-size: 0.9em;
         text-align: center;
         color:white;
+    }
+
+    div#flogos{
+        width: 180px;
+        margin: auto;
+    }
+
+    img.logos{
+        width: 25px;
+        height: 25px;
+        margin-left: 15px;
+    }
+
+    img#facebook{
+        width: 30px;
     }
 }
 
